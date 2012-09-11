@@ -1,0 +1,7 @@
+
+1) https://graph.facebook.com/TheSkinnyCowUS - get pageId
+2) get post list:
+   SELECT post_id, actor_id, target_id, message FROM stream WHERE source_id = PAGE_ID,
+   SELECT post_id, actor_id, target_id, message FROM stream WHERE source_id = PAGE_ID -
+3) graph.facebook.com/ID/friends - get friends, access_token
+   FB.api('/me/friends', 'get', function(){alert('sdf');}
